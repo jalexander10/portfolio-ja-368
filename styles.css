@@ -1,0 +1,449 @@
+/*desktop version*/
+@media (min-width: 1440px) {
+    body {
+      background-color: #EDFBF1;
+    }
+    
+    #header {
+      background-color: #FFA4DF;
+      width: 1440px;
+      height: 91px;
+      right: 50%;
+      left: 50%;
+      margin-top: -45px;
+      transform: translate(-50%, -50%);
+      position: fixed;
+      display: flex;
+    }
+    
+    #favicon {
+      height: 90px;
+    }
+    
+    .nav-and-footer {
+      font-family: 'Emilys Candy';
+      font-size: 48px;
+      color: #992025;
+      text-decoration: none;
+    }
+    
+    #mel {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    
+    #nav-bar {
+      margin-top: 15px;
+    }
+    
+    #about-link {
+      margin-left: 350px;
+    }
+    
+    #projects-link, #reflection-link, #links-link {
+      margin-left: 50px;
+    }
+    
+    #main {
+      background-image: url('https://i.ibb.co/JzZVqCG/portfolio-desktop-background.png');
+      width: 1440px;
+      height: 3235px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: auto;
+      margin-top: 90px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #welcome-section {
+      width: 1045px;
+      height: 605px;
+      background-color: #FFD5E3;
+      border-radius: 25px;
+      border: 4px solid #78BE8B;
+      margin-top: 70px; 
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 60px;
+    }
+    
+    #me {
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      height: 545px;
+    }
+    
+    .title {
+      font-family: 'Emilys Candy';
+      font-size: 48px;
+    }
+    
+    #about-me {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 450px;
+      height: 605px;
+      margin-top: -15px;
+    }
+    
+    #name {
+      color: #118338;
+    }
+    
+    #abt {
+      color: #118338;
+      margin-top: -50px;
+    }
+    
+    #note {
+      width: 400px;
+      height: 400px;
+      margin-top: -40px;
+      border-radius: 25px;
+    }
+    
+    .div-line {
+      border-top: 4px solid #78BE8B;
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+      width: 1320px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    #projects {
+      width: 850px;
+      height: 650px;
+      background-color: #DBF2E1;
+      border-radius: 25px;
+      border: 4px solid #E225A7;
+      margin-top: 60px; 
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 40px;
+      flex-direction: column;
+    }
+    
+    #coding-projects {
+      color: #AD2C85;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+    }
+    
+    #tiles-div-1, #tiles-div-2 {
+      width: 850px;
+      height: 250px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    #tiles-div-1 {
+      margin-top: -30px;
+      margin-bottom: 20px;
+    }
+    
+    #tiles-div-2 {
+      margin-bottom: 28px;
+    }
+    
+    .project-tile {
+      width: 250px;
+      height: 250px;
+      border-radius: 15px;
+      border: 2px solid #E225A7;
+    }
+    
+    #other-projects {
+      width: 930px;
+      height: 860px;
+      border-radius: 25px;
+      border: 4px solid #D5252C;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 60px;
+    }
+    
+    #reflection {
+      background-color: #FFD5E3;
+      width: 900px;
+      height: 700px;
+      border-radius: 25px;
+      border: 4px solid #78BE8B;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #ref-title {
+      color: #118338;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+    }
+    
+    #ref {
+      font-family: 'Delius';
+      font-size: 36px;
+      color: #118338;
+      width: 830px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      margin-top: -30px;
+    }
+    
+    #footer {
+      background-color: #FFA4DF;
+      width: 1440px;
+      height: 90px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+      
+    #copyright {
+      font-family: 'Delius';
+      font-size: 45px;
+      color: #992025;
+    }
+    }
+    
+    
+    
+    
+    /*mobile version*/
+    @media (max-width: 1440px) {
+    body {
+      background-color: #EDFBF1;
+    }
+    
+    #header {
+      background-color: #FFA4DF;
+      width: 500px;
+      height: 30px;
+      right: 50%;
+      left: 50%;
+      margin-top: -15px;
+      transform: translate(-50%, -50%);
+      position: fixed;
+      display: flex;
+    }
+    
+    #favicon {
+      height: 30px;
+    }
+    
+    .nav-and-footer {
+      font-family: 'Emilys Candy';
+      font-size: 16px;
+      color: #992025;
+      text-decoration: none;
+    }
+    
+    #mel {
+      margin-top: 3px;
+      margin-left: 3px;
+    }
+    
+    #nav-bar {
+      margin-top: 6px;
+    }
+    
+    #about-link {
+      margin-left: 117px;
+    }
+    
+    #projects-link, #reflection-link, #links-link {
+      margin-left: 20px;
+    }
+    
+    #main {
+      background-image: url('https://i.ibb.co/gvz3kMs/portfolio-mobile-background.png');
+      width: 500px;
+      height: 1437px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: auto;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #welcome-section {
+      width: 420px;
+      height: 244px;
+      background-color: #FFD5E3;
+      border-radius: 10px;
+      border: 2px solid #78BE8B;
+      margin-top: 25px; 
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 30px;
+    }
+    
+    #me {
+      margin-top: 12px;
+      margin-left: 12px;
+      margin-bottom: 13px;
+      height: 219px;
+    }
+    
+    .title {
+      font-family: 'Emilys Candy';
+      font-size: 20px;
+    }
+    
+    #about-me {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 180px;
+      height: 244px;
+      margin-top: -5px;
+    }
+    
+    #name {
+      color: #118338;
+    }
+    
+    #abt {
+      color: #118338;
+      margin-top: -25px;
+    }
+    
+    #note {
+      width: 162px;
+      height: 162px;
+      margin-top: -20px;
+      border-radius: 10px;
+    }
+    
+    .div-line {
+      border-top: 2px solid #78BE8B;
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+      width: 460px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    #projects {
+      width: 392px;
+      height: 300px;
+      background-color: #DBF2E1;
+      border-radius: 10px;
+      border: 2px solid #E225A7;
+      margin-top: 30px; 
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px;
+      flex-direction: column;
+    }
+    
+    #coding-projects {
+      color: #AD2C85;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 5px;
+    }
+    
+    #tiles-div-1, #tiles-div-2 {
+      width: 392px;
+      height: 115px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    #tiles-div-1 {
+      margin-top: -15px;
+      margin-bottom: 10px;
+    }
+    
+    #tiles-div-2 {
+      margin-bottom: 14px;
+    }
+    
+    .project-tile {
+      width: 115px;
+      height: 115px;
+      border-radius: 15px;
+      border: 2px solid #E225A7;
+    }
+    
+    #other-projects {
+      width: 392px;
+      height: 363px;
+      border-radius: 10px;
+      border: 2px solid #D5252C;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 30px;
+    }
+    
+    #reflection {
+      background-color: #FFD5E3;
+      width: 400px;
+      height: 330px;
+      border-radius: 10px;
+      border: 2px solid #78BE8B;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 30px;
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #ref-title {
+      color: #118338;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+    }
+    
+    #ref {
+      font-family: 'Delius';
+      font-size: 16px;
+      color: #118338;
+      width: 370px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      margin-top: -13px;
+    }
+    
+    #footer {
+      background-color: #FFA4DF;
+      width: 500px;
+      height: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+      
+    #copyright {
+      font-family: 'Delius';
+      font-size: 15px;
+      color: #992025;
+    }
+    }
+    
